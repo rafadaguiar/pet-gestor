@@ -11,7 +11,7 @@ class CreateUsuarios < ActiveRecord::Migration
       t.string :telefone_celular
       t.date :ingresso_faculdade
       t.date :ingresso_pet
-      t.bool :ativo
+      t.boolean :ativo
 
       t.timestamps
     end
