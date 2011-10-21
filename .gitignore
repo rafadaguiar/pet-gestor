@@ -8,3 +8,4 @@ pet-gestor.tmproj
 .swo
 .rvmrc*
 bin/*
+config/database.yml
