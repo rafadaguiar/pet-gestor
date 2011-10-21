@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  tipo: MyString
+  denominacao: MyText
+  periodicidade: MyString
+  ativo: false
+
+two:
+  tipo: MyString
+  denominacao: MyText
+  periodicidade: MyString
+  ativo: false

@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  atividade: 
+  periodicidade: MyString
+  nome: MyString
+  descricao: MyText
+  duracao: 1
+  qtd_envolvidos: 1
+
+two:
+  atividade: 
+  periodicidade: MyString
+  nome: MyString
+  descricao: MyText
+  duracao: 1
+  qtd_envolvidos: 1
