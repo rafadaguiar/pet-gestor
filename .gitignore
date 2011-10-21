@@ -3,3 +3,8 @@ db/*.sqlite3
 log/*.log
 tmp/
 *.swp
+*.swo
+pet-gestor.tmproj
+.swo
+.rvmrc*
+bin/*
