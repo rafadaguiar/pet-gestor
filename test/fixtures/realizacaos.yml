@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  atividade: 
+  data_inicio: 2011-11-03
+  data_fim: 2011-11-03
+
+two:
+  atividade: 
+  data_inicio: 2011-11-03
+  data_fim: 2011-11-03

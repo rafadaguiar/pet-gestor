@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111020233413) do
+ActiveRecord::Schema.define(:version => 20111103232428) do
 
   create_table "atividades", :force => true do |t|
     t.string   "tipo"
@@ -22,6 +22,13 @@ ActiveRecord::Schema.define(:version => 20111020233413) do
     t.datetime "updated_at"
   end
 
+  create_table "atividades_usuarios", :id => false, :force => true do |t|
+    t.integer  "atividade_id"
+    t.integer  "usuario_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "etapa_atividades", :force => true do |t|
     t.integer  "atividade_id"
     t.string   "periodicidade"
@@ -29,6 +36,25 @@ ActiveRecord::Schema.define(:version => 20111020233413) do
     t.text     "descricao"
     t.integer  "duracao"
     t.integer  "qtd_envolvidos"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "etapa_realizacaos", :force => true do |t|
+    t.integer  "realizacao_id"
+    t.text     "nome"
+    t.text     "descricao"
+    t.text     "status"
+    t.date     "data_inicio"
+    t.date     "data_fim"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "realizacaos", :force => true do |t|
+    t.integer  "atividade_id"
+    t.date     "data_inicio"
+    t.date     "data_fim"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
