@@ -1,4 +1,8 @@
 PetGestor::Application.routes.draw do
+  get "atividades/index"
+
+  get "atividades/show"
+
   #get "usuarios/index"
   resources :usuarios
 
