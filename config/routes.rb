@@ -1,4 +1,7 @@
 PetGestor::Application.routes.draw do
+  #get "usuarios/index"
+  resources :usuarios
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

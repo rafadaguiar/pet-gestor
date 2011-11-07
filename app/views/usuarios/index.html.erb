@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Gerenciar Petianos</title>
+		<style>
+			label {
+				display: block;
+				margin: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<form method="post" action="">
+			<div>
+				<label>Buscar Petiano: <input type="text" name="buscarpetiano"/> <input type="submit" value="Buscar"/></label>
+				<label><input type="checkbox"/>Exibir Inativos </label>
+				<table>
+          <tr>
+						<th>Login</th>
+						<th>Nome</th>
+						<th>Email</th>
+						<th>Ativo</th>
+					</tr>
+            <% for usuario in @usuarios %>
+					    <tr>
+						    <td><%= usuario.login  %></td>
+						    <td><%= usuario.nome %></td>
+						    <td><%= usuario.email  %></td>
+						    <td><%= usuario.ativo %></td>
+					    </tr>
+            <% end %>
+				</table>
+			</div>
+		</form>
+	</body>
+</html>
+
