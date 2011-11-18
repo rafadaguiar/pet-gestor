@@ -1,0 +1,156 @@
+body {
+	background-image: url("/images/bg.png");
+	background-position: fixed;
+	font-family: "Myriad Pro", sans-serif;
+}
+
+.btnSair {
+	position: absolute;
+	top: 25%;
+	left: 95%;
+	color: white;
+}
+
+#management-container {
+	position: absolute;
+	z-index: 1;
+	left: 20%;
+	top: 40%;
+	width:850px;
+	height:330px;
+}
+
+#management-bg {
+	position: absolute;
+	opacity: 0.7;
+	width:850px;
+	height:360px;
+	background-color: #FFF;
+	border-radius: 38px;
+}
+
+#management-bg h1 {
+	position: relative;
+	font-size: 40px;
+	left: 39%;
+	top: 7%;
+}
+
+#petianos-bg {
+	position: absolute;
+	background-color: #DDD;
+	height: 57%;
+	width: 23%;
+	top: 28%;
+	left: 8%;
+	z-index: 5;
+	border-radius: 20px;
+}
+
+#petianos-bg a {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url(/images/petianos.png);
+	background-repeat: no-repeat;
+	top: 0%;
+	left: 0%;
+}
+
+#petianos-bg p {
+	position: relative;
+	text-decoration: none;
+	top: 84%;
+	left: 28%;
+	font-size: 22px;
+}
+
+#petianos-bg:hover {
+	opacity: 0.7;
+}
+
+#atividades-bg {
+	position: absolute;
+	background-color: #DDD;
+	height: 57%;
+	width: 23%;
+	top: 28%;
+	left: 38%;
+	z-index: 5;
+	border-radius: 20px;
+}
+
+#atividades-bg a {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url(/images/atividades.png);
+	background-repeat: no-repeat;
+	top: 0%;
+	left: 0%;
+}
+
+#atividades-bg p {
+	position: relative;
+	text-decoration: none;
+	top: 84%;
+	left: 28%;
+	font-size: 22px;
+}
+
+#atividades-bg:hover {
+	opacity: 0.7;
+}
+
+#realizacoes-bg {
+	position: absolute;
+	background-color: #DDD;
+	height: 57%;
+	width: 23%;
+	top: 28%;
+	left: 68%;
+	z-index: 5;
+	border-radius: 20px;
+}
+
+#realizacoes-bg a {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url(/images/realizacoes.png);
+	background-repeat: no-repeat;
+	top: 0%;
+	left: 0%;
+}
+
+#realizacoes-bg p {
+	position: relative;
+	text-decoration: none;
+	top: 84%;
+	left: 28%;
+	font-size: 22px;
+}
+
+#realizacoes-bg:hover {
+	opacity: 0.7;
+}
+
+#petGestor {
+	overflow: hidden;
+	position: absolute;
+	height: 20%;
+	width: 100%;
+	background-color: #FFF;
+	box-shadow: 1px 10px 45px rgba(0,0,0,3.5);
+	z-index: 2;
+	background-image: -moz-linear-gradient(top, #FFF, #ECECEC);
+	background-image: -webkit-linear-gradient(top, #FFF, #ECECEC);
+}
+
+#logo{
+	position: relative;
+	top: 2%;
+	left: 33%;
+	height: 100%;
+	width: 403px;
+}

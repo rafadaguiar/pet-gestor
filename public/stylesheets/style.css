@@ -1,0 +1,119 @@
+body {
+	background-image: url("/images/bg.png");
+	background-attachment: fixed;
+	font-family: "Myriad Pro", sans-serif;
+}
+
+#login-container {
+	position: absolute;
+	z-index: 1;
+	left: 38%;
+	top: 40%;
+	width: 300px;
+	height: 230px;
+}
+
+#login-bg {
+	position: absolute;
+	opacity: 0.5;
+	height: 230px;
+	width: 300px;
+	background-color: #FFF;
+	border-radius: 60px;
+}
+
+#login-info {
+	position: relative;
+	margin: 8% 13%;
+	display: block;
+	width: 80%;
+	height: 200px;
+}
+
+#login-info .lb_login{
+	position: relative;
+	float: left;
+	margin: 9px 10px 0 0;
+	width: 15%;
+	text-align: right;
+	top: 15px;
+	margin-right: 15px;
+}
+
+#login-info input[type="text"], input[type="password"] {
+	height: 25px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: 0;
+	margin-left: 15px;
+	padding-left: 10px;
+	width: 140px;
+	background-image: -webkit-linear-gradient(top, #FFF, #EEE);
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	color: #444;
+}
+
+#login-info input[type="submit"] {
+	position: relative;
+	top: 10px;
+	left: 65%;
+	margin-left: 10px;
+	width: 50px;
+	padding: 6px;
+	color: white;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(top, #595A5D, #393A3D);
+	background-image: -moz-linear-gradient(top, #595A5D, #393A3D);
+	border-radius: 8px;
+}
+
+#login-info input[type="submit"]:hover {
+	position: relative;
+	top: 10px;
+	left: 65%;
+	width: 50px;
+	padding: 6px;
+	color: white;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(top, #595A5D, #191A1D);
+	background-image: -moz-linear-gradient(top, #595A5D, #191A1D);
+	border-radius: 8px;
+}
+
+#login-info input:focus{
+	color: #333;
+}
+
+#login-info a {
+	position: relative;
+	top: 40px;
+	margin-left: 15px;
+	color: black;
+	font-size: 14px;
+}
+
+#petGestor {
+	overflow: hidden;
+	position: absolute;
+	height: 425px;
+	width: 100%;
+	background-color: #FFF;
+	box-shadow: 1px 10px 45px rgba(0,0,0,3.5);
+	z-index: 2;
+	background-image: -moz-linear-gradient(top, #FFF, #ECECEC);
+	background-image: -webkit-linear-gradient(top, #FFF, #ECECEC);
+}
+
+#logo{
+	position: relative;
+	top: 35%;
+	left: 20%;
+	height: 283px;
+	width: 800px;
+}
+
+#clickMe {
+	width: 100%;
+	height: 330px;
+	padding-top: 400px;
+}
