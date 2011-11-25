@@ -5,37 +5,29 @@
   }
 </style>
 
-<div id="register-container">
-  <div id="register-bg">
-  </div>
-  
-  <div id="register-info">
-
-    <form method="post" action="">
-      <div>
-        <label>Buscar Petiano: <input type="text" name="buscarpetiano"/> <input type="submit" value="Buscar"/></label>
-        <label><input type="checkbox"/>Exibir Inativos </label>
-        <table>
-          <tr>
-            <th>Login</th>
-            <th>Nome</th>
-            <th>Email</th>
-            <th>Ativo</th>
-          </tr>
-          <% for usuario in @usuarios %>
-            <tr>
-              <td><%= usuario.login  %></td>
-              <td><%= usuario.nome %></td>
-              <td><%= usuario.email  %></td>
-              <% if usuario.ativo %>
-                <td>Sim</td>
-              <% else %>
-                <td>Não</td>
-              <% end %>
-            </tr>
+<form method="post" action="">
+  <div>
+    <label>Buscar Petiano: <input type="text" name="buscarpetiano"/> <input type="submit" value="Buscar"/></label>
+    <label><input type="checkbox"/>Exibir Inativos </label>
+    <table>
+      <tr>
+        <th>Login</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Ativo</th>
+      </tr>
+      <% for usuario in @usuarios %>
+        <tr>
+          <td><%= usuario.login  %></td>
+          <td><%= usuario.nome %></td>
+          <td><%= usuario.email  %></td>
+          <% if usuario.ativo %>
+            <td>Sim</td>
+          <% else %>
+            <td>Não</td>
           <% end %>
-        </table>
-      </div>
-    </form>
+        </tr>
+      <% end %>
+    </table>
   </div>
-</div>
+</form>

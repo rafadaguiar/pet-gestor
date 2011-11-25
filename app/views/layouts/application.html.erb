@@ -9,11 +9,17 @@
   </head>
 
   <body>
-    <div id="petGestor">
-      <img src="/images/logo.png" id="logo"/>
-    </div>
+    <div id="container">
+      <div id="header">
+        <a href="/"><img src="/images/logoP.png"/></a>
+      </div>
 
-    <a href="#" class="btnSair">Sair</a>
-    <%= yield %>
+      <div id="content">
+        <div id="content-bg"></div>
+        <%= yield %>
+      </div>
+
+      <a href="#" class="btnSair">Sair</a>
+    </div>
   </body>
 </html>

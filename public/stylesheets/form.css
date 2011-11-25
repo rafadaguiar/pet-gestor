@@ -1,0 +1,55 @@
+label {
+	font-size: 20px;
+	margin-right: 30px;
+	margin-left: 5px;
+}
+
+input[type = "text"], input[type = "password"], select {
+	height: 25px;
+	border-radius: 10px;
+	border: 0;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-right: 100px;
+	background-image: -webkit-linear-gradient(top, #FFF, #EEE);
+	background-image: -moz-linear-gradient(top, #FFF, #EEE);
+	color: #444;
+	font-size: 14px;
+}
+
+input[type="submit"] {
+	margin-top: 20px;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(top, #595A5D, #393A3D);
+	background-image: -moz-linear-gradient(top, #595A5D, #393A3D);
+	border-radius: 8px;
+	font-size: 13px;
+}
+
+input[type="submit"]:hover {
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(top, #595A5D, #191A1D);
+	background-image: -moz-linear-gradient(top, #595A5D, #191A1D);
+	border-radius: 8px;
+}
+
+input:focus{
+	color: #333;
+}
+
+select {
+	width: 150px;
+}
+
+/* XXX */
+#input-nome {
+	width: 580px;
+}
+
+#input-salvar {
+	margin-left: 250px;
+}
