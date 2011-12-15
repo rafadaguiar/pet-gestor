@@ -21,7 +21,7 @@
         <%= yield %>
       </div>
 
-      <a href="#" class="btnSair">Sair</a>
+      <%= link_to 'Sair', destroy_usuario_session_path, :method => :delete, :class => "btnSair" %>
     </div>
   </body>
 </html>
