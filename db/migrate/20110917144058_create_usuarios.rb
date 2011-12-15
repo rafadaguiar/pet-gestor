@@ -3,9 +3,7 @@ class CreateUsuarios < ActiveRecord::Migration
     create_table :usuarios do |t|
       t.string :cpf
       t.string :nome
-      t.string :email
       t.string :login
-      t.string :senha
       t.date :data_aniversario
       t.string :telefone_casa
       t.string :telefone_celular

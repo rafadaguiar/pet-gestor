@@ -1,4 +1,6 @@
 PetGestor::Application.routes.draw do
+  devise_for :usuarios
+
   get "atividades/index"
 
   get "atividades/show"
