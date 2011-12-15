@@ -6,8 +6,21 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 
-bruno = Usuario.create(:nome => 'Bruno Coelho', :cpf => '014.220.564-81', :email => 'bcs.cin@gmail.com', :login => 'brunocoelho')
-kaka = Usuario.create(:nome => 'Karina', :cpf => '020.765.924-90', :email => 'kaka@gmail.com', :login => 'kaka')
+bruno = Usuario.new
+bruno.nome = 'Bruno Coelho'
+bruno.cpf = '014.220.564-81'
+bruno.email = 'bcs@gmail.com'
+bruno.login = 'brunocoelho'
+bruno.password = '123456'
+bruno.save
+
+kaka = Usuario.new
+kaka.nome = 'Karina'
+kaka.cpf = '020.765.924-90'
+kaka.email = 'kaka@gmail.com'
+kaka.login = 'kaka'
+kaka.password = '123456'
+kaka.save
 
 at1 = Atividade.create(:tipo => 'Extensao', :nome => 'Oficina')
 at2 = Atividade.create(:tipo => 'Pesquisa', :nome => 'IC Individual')
