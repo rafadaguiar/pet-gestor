@@ -79,3 +79,10 @@ body {
 	float: right;
 	margin-top: 190px;
 }
+
+.btnSair {
+	position: absolute;
+	top: 25%;
+	left: 95%;
+	color: white;
+}
