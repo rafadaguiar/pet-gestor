@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -18,15 +19,15 @@ ActiveRecord::Schema.define(:version => 20111124233324) do
     t.text     "descricao"
     t.string   "periodicidade"
     t.boolean  "ativo",         :default => true
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
   end
 
   create_table "atividades_usuarios", :id => false, :force => true do |t|
     t.integer  "atividade_id"
     t.integer  "usuario_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "etapa_atividades", :force => true do |t|
@@ -36,8 +37,8 @@ ActiveRecord::Schema.define(:version => 20111124233324) do
     t.text     "descricao"
     t.integer  "duracao"
     t.integer  "qtd_envolvidos"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
   create_table "etapa_realizacaos", :force => true do |t|
@@ -47,16 +48,16 @@ ActiveRecord::Schema.define(:version => 20111124233324) do
     t.text     "status"
     t.date     "data_inicio"
     t.date     "data_fim"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "realizacaos", :force => true do |t|
     t.integer  "atividade_id"
     t.date     "data_inicio"
     t.date     "data_fim"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "usuarios", :force => true do |t|
@@ -69,8 +70,8 @@ ActiveRecord::Schema.define(:version => 20111124233324) do
     t.date     "ingresso_faculdade"
     t.date     "ingresso_pet"
     t.boolean  "ativo"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                                            :null => false
+    t.datetime "updated_at",                                            :null => false
     t.string   "email",                                 :default => "", :null => false
     t.string   "encrypted_password",     :limit => 128, :default => "", :null => false
     t.string   "reset_password_token"
