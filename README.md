@@ -32,7 +32,7 @@ Seguimos alguns padrões de codificação que você deve seguir para deixar o c�
 * [JavaScript Good Parts]
 
 ## Ferramentas úteis
-Além dos padrões de codigicação, você também pode usar essas ferramentas para checar se o código está correto.
+Além dos padrões de codificação, você também pode usar essas ferramentas para checar a corretude do código.
 
 * [Rubular] - Testar expressão regular.
 * [JSLint] - Testar a qualidade do código JavaScript.
@@ -45,7 +45,7 @@ PET-Informática, Centro de Informática, UFPE.
 
 ## Licença
 
-PET-Gestor está sob a licença do MIT
+PET-Gestor está sob a licença do MIT.
 
 * http://www.opensource.org/licenses/MIT
 
