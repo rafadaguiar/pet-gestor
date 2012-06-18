@@ -9,3 +9,4 @@ pet-gestor.tmproj
 .rvmrc*
 bin/*
 config/database.yml
+*.DS_Store
