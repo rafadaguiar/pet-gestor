@@ -9,9 +9,7 @@ Gerencie as atividades do seu PET pela web.
 ## Tecnologias
 
     * Versão do Ruby: 1.9.2p290.
-
     * Versão do Rails: 3.2.6.
-
     * Banco de dados: MySql.
 
 ## Instalação e uso
@@ -36,9 +34,8 @@ Gerencie as atividades do seu PET pela web.
 ## Ferramentas úteis
 Além dos padrões de codigicação, você também pode usar essas ferramentas para checar se o código está correto.
 
-    * [Rubular] - For testing regular expressions
-
-    * [JSLint] - For checking JavaScript code quality
+    * [Rubular] - Testar expressão regular.
+    * [JSLint] - Testar a qualidade do código JavaScript.
 
 ## Autor
 
@@ -55,3 +52,6 @@ PET-Gestor está sob a licença do MIT
 [GitHub Ruby Styleguide]: https://github.com/styleguide/ruby
 [Rails Coding Conventions]: http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html#follow-the-coding-conventions
 [JavaScript Good Parts]: http://javascript.crockford.com/
+
+[Rubular]: http://rubular.com/
+[JSLint]: http://www.jslint.com/
